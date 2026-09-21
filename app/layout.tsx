@@ -16,7 +16,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Radha Property | Premium Real Estate & Investment",
-  description: "Build a Better Tomorrow with Radha Property. Registered 2026. Expert dealing in flats, plots, commercial spaces, PG rooms, and legal support.",
+  description:
+    "Build a Better Tomorrow with Radha Property. Registered 2026. Expert dealing in flats, plots, commercial spaces, PG rooms, and legal support.",
+  verification: {
+    google: "ABC123....",
+  },
 };
 
 export default function RootLayout({
